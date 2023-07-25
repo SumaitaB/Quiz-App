@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:textSize="68px" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question: "
+        android:textSize="68px" />
+
+    <Button
+        android:id="@+id/btnChoice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bird" />
+
+    <Button
+        android:id="@+id/btnChoice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Door" />
+
+    <Button
+        android:id="@+id/btnChoice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rock" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:background="#B71C1C"/>
+
+
+</LinearLayout>
